@@ -63,11 +63,11 @@ Note: if composer.json not found run this instead
 ```
 composer require phalcon/ide-stubs --dev
 ```
-Note: this command not important in production environment
-3. Create database and name it `phalcon_test`
-4. Copy the query mentioned above to create `users` table
-5. Run apache server and visit the directory of the project from your browser http://localhost/phalcon
-6. Enjoy testing :)
+Note: this command not important in production environment<br><br>
+3. Create database and name it `phalcon_test`<br><br>
+4. Copy the query mentioned above to create `users` table<br><br>
+5. Run apache server and visit the directory of the project from your browser http://localhost/phalcon<br><br>
+6. Enjoy testing 😃<br><br>
 
 ## Setup Phalcon
 Firstly: We need to know that Phalcon framework is not like other PHP frameworks specifically in its installation process.
@@ -83,5 +83,8 @@ These all because Phalcon is a C-extension that we need to add manually to apach
 4. Now we need to ensure these extensions are read by phpinfo, so restart your apache server and then go to phpinfo and search using those 2 keywords `psr` and `phalcon`.
 5. If you find these extensions installed successfully, Congrates 🎉 phalcon is installed in your machine.
 
+<br><br>
+
 ref: https://www.youtube.com/watch?v=pqwN0fsZn-s
+<br>
 docs: https://docs.phalcon.io/5.6/tutorial-basic/
